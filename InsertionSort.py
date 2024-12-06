@@ -1,10 +1,9 @@
 #Insertion Sort
-array = list(map(int, input("Give Array: ").split()))
+unsorted_arr = list(map(int, input("Give Array: ").split()))
 length = len(array)
 counter = 0
 print(array)
 sorted_arr = []
-unsorted_arr = [ 7, 12, 9, 11, 3]
 while(len(unsorted_arr)!=0):
     new_item = unsorted_arr.pop(0)
     if len(sorted_arr)== 0:
